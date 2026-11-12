@@ -5,9 +5,11 @@ A web-based system for the health centers of Malabon District II that lets patie
 ---
 
 ## Group Members & Roles
-* **[Leader Name]** – Project Manager / Lead Developer
-* **[Member 2 Name]** – Frontend / UI-UX Developer
-* **[Member 3 Name]** – Backend / Database Administrator
+* **[Agundis, Ronellle Jane]** – Project Manager / Lead Developer
+* **[Buitizon, Gilbert]** - QA Tester
+* **[Co, Earl Vincent]** - Full Stack Developer
+* **[Cordero, Justin]** - QA Tester
+* **[Jayan, Rodolfo III]** - QA Tester
 
 ---
 
@@ -33,7 +35,7 @@ Follow these step-by-step commands to set up the project locally:
 
 ### 1. Clone the Repository
 ```bash
-git clone https://github.com/your-username/your-repo-name.git
+git clone https://github.com/WoofWoofSlayer123/An-AI-Based-Appointment-Management-System-with-Supply-Forecasting-System.git
 cd your-repo-name
 ```
 
@@ -54,13 +56,13 @@ Follow these steps to configure your local database:
    * Locate the SQL export file inside the repository folder (usually found under `/database/db_backup.sql` or `/sql/schema.sql`).
    * Import this file into your newly created database.
 4. **Configure the Database Connection:**
-   * Open the database configuration file (for example, `config/db.php`).
+   * Open the database configuration file (for example, `config/connection.php`).
    * Update the connection settings:
      ```php
-     $host = "127.0.0.1";
-     $dbname = "db_malabon_health_center";
-     $username = "root";
-     $password = "";
+      $servername = "localhost";
+      $username = "root";
+      $password = "123456789";
+      $dbname = "health_center_system";
      ```
 
 ---
@@ -72,11 +74,3 @@ Open your browser and navigate to: `http://localhost/malabon-health-center` (or 
 To use the system, log in through the landing page and choose the account type for your role (patient, staff, doctor, or admin).
 
 ---
-
-## Default Login Credentials (If applicable)
-* **Admin Account:** `admin@example.com` / `[set during setup]`
-* **Staff Account:** `staff@example.com` / `[set during setup]`
-* **Doctor Account:** `doctor@example.com` / `[set during setup]`
-* **Patient Account:** `patient@example.com` / `[set during setup]`
-
-> Replace these placeholder accounts with your own test accounts before submission, and never use real patient data in a development database.
