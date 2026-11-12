@@ -53,7 +53,7 @@ Follow these steps to configure your local database:
    * Open phpMyAdmin (`http://localhost/phpmyadmin`) or your database client.
    * Create a new database named: `db_malabon_health_center` (match this with your database configuration file).
 3. **Import the Database Schema:**
-   * Locate the SQL export file inside the repository folder (usually found under `/database/db_backup.sql` or `/sql/schema.sql`).
+   * Locate the SQL export file inside the repository folder (usually found under `/database/db_malabon_health_center`).
    * Import this file into your newly created database.
 4. **Configure the Database Connection:**
    * Open the database configuration file (for example, `config/connection.php`).
